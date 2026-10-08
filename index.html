@@ -5,253 +5,466 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Rui Yang - Ancient Greek Mythology</title>
+    <title>Rui Yang | Data Science & AI Research</title>
 
     <style>
         body {
-            font-family: Georgia, serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px;
-            background-color: #f4efe5;
-            color: #2d241c;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #222;
             line-height: 1.6;
         }
 
         header {
-            text-align: center;
-            background-color: #7b241c;
+            background-color: #1f2937;
             color: white;
-            padding: 30px;
-            border-radius: 10px;
-            margin-bottom: 30px;
+            text-align: center;
+            padding: 70px 20px;
         }
 
         header h1 {
-            margin-bottom: 5px;
+            font-size: 3em;
+            margin: 0;
         }
 
         header h2 {
-            border: none;
-            color: white;
+            font-size: 1.3em;
+            font-weight: normal;
+            margin-top: 10px;
+            color: #d1d5db;
         }
 
-        header a {
-            color: white;
+        header p {
+            max-width: 700px;
+            margin: 20px auto;
+            color: #e5e7eb;
         }
 
-        .object-card {
+        .links {
+            margin-top: 25px;
+        }
+
+        .links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
             background-color: white;
             padding: 30px;
+            margin-bottom: 25px;
             border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         }
 
         h2 {
-            color: #7b241c;
-            border-bottom: 1px solid #c9b79c;
-            padding-bottom: 5px;
-            margin-top: 30px;
+            color: #1f2937;
+            border-bottom: 2px solid #d1d5db;
+            padding-bottom: 8px;
         }
 
-        .object-image {
-            display: block;
-            max-width: 100%;
-            margin: 20px auto;
-            border-radius: 6px;
+        h3 {
+            color: #374151;
+            margin-bottom: 5px;
         }
 
-        .metadata {
-            background-color: #eee4d3;
-            padding: 15px;
-            border-radius: 8px;
+        .subtitle {
+            color: #6b7280;
+            margin-top: 0;
         }
 
-        a {
-            color: #8b4513;
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background-color: #e5e7eb;
+            padding: 8px 14px;
+            border-radius: 20px;
+            margin: 0;
+        }
+
+        .project {
+            margin-bottom: 25px;
         }
 
         footer {
             text-align: center;
-            margin-top: 30px;
-            font-size: 0.9em;
+            padding: 30px;
+            background-color: #1f2937;
+            color: #d1d5db;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2em;
+            }
+
+            section {
+                padding: 20px;
+            }
         }
     </style>
 </head>
 
+
 <body>
 
     <header>
+
         <h1>Rui Yang</h1>
 
-        <h2>UIUC Student</h2>
+        <h2>Data Science & Information Science Student</h2>
 
         <p>
-            I am a student at the University of Illinois Urbana-Champaign
-            interested in data, technology, and cultural research.
+            I am a University of Illinois Urbana-Champaign student interested
+            in data science, artificial intelligence, research, and the
+            intersection of technology with society and business.
         </p>
 
-        <p>
+        <div class="links">
+
             <a href="https://github.com/ruiyang0028" target="_blank">
-                Visit my GitHub profile
+                GitHub
             </a>
-        </p>
-    </header>
 
-
-    <div class="object-card">
-
-        <h1>Achilles and Penthesilea</h1>
-
-        <p>
-            This page presents an ancient Greek vase from The Metropolitan
-            Museum of Art that depicts the mythological encounter between
-            the Greek hero Achilles and Penthesilea, the queen of the Amazons.
-        </p>
-
-
-        <img
-            class="object-image"
-            src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/248307/1507018/main-image"
-            alt="Ancient Greek red-figure water jar depicting Achilles and Penthesilea"
-        >
-
-
-        <h2>About the Object</h2>
-
-        <p>
-            The object is a terracotta hydria, or water jar, attributed to
-            the Berlin Painter. The scene depicts Achilles and Penthesilea.
-            Penthesilea was the queen of the Amazons and fought on the Trojan
-            side during the Trojan War. According to the myth, Achilles killed
-            Penthesilea and fell in love with her at the moment he delivered
-            the fatal blow.
-        </p>
-
-        <p>
-            The image demonstrates how Greek mythology was represented through
-            visual culture. Rather than existing only as written stories,
-            myths were also represented on everyday and ceremonial objects
-            such as painted pottery.
-        </p>
-
-
-        <h2>Why This Object Matters</h2>
-
-        <ul>
-            <li>
-                It represents a scene from Greek mythology.
-            </li>
-
-            <li>
-                It connects mythology with ancient Greek visual culture.
-            </li>
-
-            <li>
-                It shows how mythological characters could be represented
-                through vase painting.
-            </li>
-
-            <li>
-                It provides a physical object through which a myth was
-                preserved and transmitted.
-            </li>
-        </ul>
-
-
-        <h2>Object Metadata</h2>
-
-        <div class="metadata">
-
-            <p>
-                <strong>Title:</strong>
-                Terracotta hydria: kalpis (water jar)
-            </p>
-
-            <p>
-                <strong>Artist:</strong>
-                Attributed to the Berlin Painter
-            </p>
-
-            <p>
-                <strong>Date:</strong>
-                ca. 500 BCE
-            </p>
-
-            <p>
-                <strong>Culture:</strong>
-                Greek, Attic
-            </p>
-
-            <p>
-                <strong>Period:</strong>
-                Classical
-            </p>
-
-            <p>
-                <strong>Medium:</strong>
-                Terracotta; red-figure
-            </p>
-
-            <p>
-                <strong>Classification:</strong>
-                Vases
-            </p>
-
-            <p>
-                <strong>Object Number:</strong>
-                10.210.19
-            </p>
-
-            <p>
-                <strong>Collection:</strong>
-                Greek and Roman Art, The Metropolitan Museum of Art
-            </p>
+            <a href="mailto:yangrui0028@gmail.com">
+                Email
+            </a>
 
         </div>
 
+    </header>
 
-        <h2>Original Sources</h2>
 
-        <p>
-            The original object can be viewed through The Metropolitan Museum
-            of Art's online collection:
-        </p>
+    <main>
 
-        <ul>
 
-            <li>
-                <a
-                    href="https://www.metmuseum.org/art/collection/search/248307"
-                    target="_blank"
-                >
-                    View the original object at The Metropolitan Museum of Art
-                </a>
-            </li>
+        <section>
 
-            <li>
-                <a
-                    href="https://www.metmuseum.org/art/collection"
-                    target="_blank"
-                >
-                    Visit The Metropolitan Museum of Art Collection
-                </a>
-            </li>
+            <h2>About Me</h2>
 
-        </ul>
+            <p>
+                I am a student at the University of Illinois Urbana-Champaign
+                studying Data Science and Information Science with a minor in
+                Computer Science. My interests span artificial intelligence,
+                machine learning, data analysis, and the ways technology
+                shapes how people interact with information.
+            </p>
 
-        <p>
-            The Metropolitan Museum of Art identifies the image of this
-            object as public domain.
-        </p>
+            <p>
+                I enjoy working on projects that combine technical methods
+                with real-world questions. My experience includes AI research,
+                machine learning, quantitative analysis, cultural research,
+                and interdisciplinary work involving people and technology.
+            </p>
 
-    </div>
+        </section>
+
+
+        <section>
+
+            <h2>Research Experience</h2>
+
+
+            <div class="project">
+
+                <h3>Hands-On Intelligence — Undergraduate Researcher</h3>
+
+                <p class="subtitle">
+                    University of Illinois Urbana-Champaign
+                </p>
+
+                <ul>
+                    <li>
+                        Conducted interdisciplinary research on human-centered
+                        AI and the role of generative AI in hands-on creative
+                        activities.
+                    </li>
+
+                    <li>
+                        Studied how AI can function as both a cognitive
+                        scaffold and a potential distraction during physical
+                        making and learning.
+                    </li>
+
+                    <li>
+                        Designed and tested a proof-of-concept prototype and
+                        documented research findings through weekly journals
+                        and presentations.
+                    </li>
+
+                    <li>
+                        Helped organize a workshop examining how participants
+                        interacted with AI compared with a human facilitator.
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>AI Research Assistant — Xi'an AI Lab</h3>
+
+                <ul>
+                    <li>
+                        Worked on brain-AI research using multimodal models
+                        and representation similarity analysis.
+                    </li>
+
+                    <li>
+                        Compared vision-language models including DeepSeek-VL2,
+                        InternVL3, Ovis2.5, Qwen2.5-VL, and Qwen3-VL.
+                    </li>
+
+                    <li>
+                        Created model-network RSA heatmaps and peak-RSA
+                        visualizations to examine relationships between
+                        model representations and brain networks.
+                    </li>
+
+                    <li>
+                        Worked with LoRA fine-tuning and evaluated language
+                        models using MATH500, CSQA, and GPQA Diamond.
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <h2>Professional Experience</h2>
+
+
+            <div class="project">
+
+                <h3>Huatai Securities — Sales & Marketing Intern</h3>
+
+                <ul>
+                    <li>
+                        Analyzed market returns and the relationship between
+                        economic indicators and U.S. equity markets.
+                    </li>
+
+                    <li>
+                        Used statistical analysis and multiple linear
+                        regression to study relationships between
+                        macroeconomic indicators and market fluctuations.
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>China Satellite Network Group — Intern</h3>
+
+                <ul>
+                    <li>
+                        Optimized financial product operation workflows and
+                        developed launch and exit procedures.
+                    </li>
+
+                    <li>
+                        Created workflow diagrams to communicate operational
+                        processes more clearly.
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <h2>Selected Projects</h2>
+
+
+            <div class="project">
+
+                <h3>Comparative Analysis of Machine Learning Models for Stock Prediction</h3>
+
+                <p>
+                    Analyzed historical stock data for Google, Tesla, and
+                    Netflix using multiple machine learning approaches,
+                    including Linear Regression, Random Forest, XGBoost,
+                    LightGBM, and LSTM. The project examined how different
+                    models performed in financial forecasting.
+                </p>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>Exchange Rate Forecasting & Time Series Modeling</h3>
+
+                <p>
+                    Conducted independent research on USD-CNY exchange rate
+                    forecasting using time-series modeling and quantitative
+                    analysis.
+                </p>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>High-Speed Sports Analysis</h3>
+
+                <p>
+                    Explored the use of AI agents and computer vision for
+                    analyzing sports video streams and identifying patterns
+                    relevant to sports prediction and trading.
+                </p>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>Ancient Greek Mythology Retellings</h3>
+
+                <p>
+                    Investigated how Greek myths were preserved, retold, and
+                    used to communicate religious beliefs, social values,
+                    cultural ideas, and explanations of the world.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <h2>Leadership & Activities</h2>
+
+            <ul>
+
+                <li>
+                    Founded and led a high school debate club that grew to
+                    more than 70 students.
+                </li>
+
+                <li>
+                    Organized an interschool debate competition involving
+                    international schools in Singapore.
+                </li>
+
+                <li>
+                    Participated in more than 10 Model United Nations
+                    conferences across Singapore, China, and the United States.
+                </li>
+
+                <li>
+                    Served as a chair at multiple Model United Nations
+                    conferences and received delegate awards.
+                </li>
+
+                <li>
+                    Participated in HackIllinois and worked on technology
+                    projects involving sports analytics and trading.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <section>
+
+            <h2>Technical Skills</h2>
+
+            <ul class="skills">
+
+                <li>Python</li>
+                <li>R</li>
+                <li>SQL</li>
+                <li>Pandas</li>
+                <li>scikit-learn</li>
+                <li>XGBoost</li>
+                <li>LightGBM</li>
+                <li>Random Forest</li>
+                <li>LSTM</li>
+                <li>Machine Learning</li>
+                <li>Data Analysis</li>
+                <li>Data Visualization</li>
+                <li>Git</li>
+                <li>GitHub</li>
+
+            </ul>
+
+        </section>
+
+
+        <section>
+
+            <h2>Education</h2>
+
+            <h3>University of Illinois Urbana-Champaign</h3>
+
+            <p class="subtitle">
+                Data Science & Information Science | Computer Science Minor
+            </p>
+
+            <p>
+                My academic interests combine computation, data, information,
+                and the social impact of technology.
+            </p>
+
+        </section>
+
+
+    </main>
 
 
     <footer>
+
         <p>
-            Created by Rui Yang for IS310: Culture as Data.
+            © 2026 Rui Yang
         </p>
+
+        <p>
+            <a
+                href="https://github.com/ruiyang0028"
+                target="_blank"
+            >
+                GitHub
+            </a>
+        </p>
+
     </footer>
 
 </body>
